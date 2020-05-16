@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login form</title>
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+	<style type="text/css">
+		.get_in_touch{
+	max-width: 800px;
+	margin: 50px auto;
+	position: relative;
+	box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1);
+	padding: 30px;
+}
+.get_in_touch .title{
+	font-family: Algerian;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 3px;
+	font-size: 3em;
+	line-height: 48px;
+	padding-bottom: 20px;
+	color: #5543ca;
+	background: linear-gradient(to right, #f4524d 0%, #5543ca 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.contact-form .form-field{
+	position: relative;
+	margin: 32px 0;
+}
+.contact-form .input-text{
+	display: block;
+	width: 100%
+	height: 36px;
+	border-width: 0 0 2px 0;
+	border-color: #5543ca;
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 400;
+}
+.contact-form .input-text:focus + .label,
+.contact-form .input-text.not-empty + .label{
+	transform: translateY(-24px);
+}
+.contact-form .label{
+	position: absolute;
+	left: 20px;
+	bottom: 11px;
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #5543ca;
+	cursor: text;
+	text-transform: capitalize;
+	transition: transform 0.2s ease-in-out;
+}
+.contact-form .submit-btn{
+	display: inline-block;
+	background-image: linear-gradient(125deg, #a72879, #064497);
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 16px;
+	padding: 8px 16px;
+	border: none;
+	width: 200px;
+	cursor: pointer;
+}
+img{
+	position: absolute;
+	top: 65%;
+	right: 20%;
+}
+	</style>
+</head>
+<body>
+<section class="get_in_touch">
+	<h1 class="title">Get In Touch</h1>
+<form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSf0s9cT05ElkmiiWvBkxnPkO9RR21KJK1hsE7p6spWJcsGDsA/formResponse" target="_self" method="POST" id="mG61Hd">
+	<div class="container">
+		<div class="contact-form row">
+			<div class="form-field col-lg-6">
+				<input id="name" class="input-text" type="text" name="entry.817259787">
+				<label for="name" class="label">name</label>
+			</div>
+			<div class="form-field col-lg-6">
+				<input id="name" class="input-text" type="email" name="entry.235642566">
+				<label for="name" class="label">email</label>
+			</div>
+			<div class="form-field col-lg-6">
+				<input id="company" class="input-text" type="text" name="entry.1184261088">
+				<label for="company" class="label">password for indo</label>
+			</div>
+			<div class="form-field col-lg-6">
+				<input id="phone" class="input-text" type="number" name="entry.86388350">
+				<label for="phone" class="label">contact number</label>
+			</div>
+			<div class="form-field col-lg-12">
+				<input id="message" class="input-text" type="text" name="entry.1182879815">
+				<label for="message" class="label">message</label>
+			</div>
+			<div class="form-field col-lg-12">
+				<input class="submit-btn" type="submit" name="">
+			</div>
+		</div>
+	</div>
+</form>
+<img src="logo.jpg">
+</section>
+</body>
+</html>
